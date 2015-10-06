@@ -1603,8 +1603,7 @@
 		}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
+			background-color: #FFFFFF;
 		}
 
 		.wrapper.style2 {
@@ -1645,7 +1644,7 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #707070;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -1829,7 +1828,8 @@
 			}
 
 				.wrapper.first {
-					padding-top: 12em;
+					padding-top: 6em;
+					padding-bottom: 6em;
 				}
 
 		/* Nav */
