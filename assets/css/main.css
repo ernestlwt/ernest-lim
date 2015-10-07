@@ -1814,9 +1814,7 @@
 
 				.box.style2 .image {
 					position: relative;
-					left: 2em;
-					top: 2em;
-					margin: -4em 0 4em -4em;
+					margin: 2em 2em 2em 2em;
 					width: auto;
 				}
 
@@ -2057,9 +2055,6 @@
 
 				.box .image.featured {
 					position: relative;
-					left: 20px;
-					top: 20px;
-					margin: -50px 0 50px -40px;
 					width: auto;
 				}
 
