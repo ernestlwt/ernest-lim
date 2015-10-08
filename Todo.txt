@@ -1,4 +1,0 @@
-1) convert seperation into bootstrap format
-2) adjust font
-3) content
-4) formatting of sections

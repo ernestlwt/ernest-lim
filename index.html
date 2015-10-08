@@ -1,265 +1,183 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <!--
-	Miniport by HTML5 UP
+	Prologue by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="en">
+<html lang="en-US">
 	<head>
 		<title>Ernest Lim</title>
 		<meta charset="utf-8" />
-		
-		<!-- Default from miniport theme -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- allows older browser to understand this page -->
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->	
+		
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
-		<!-- BootStrap -->
-		<link href="bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet">
-		
-		<!-- Font -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-		
 	</head>
 	<body>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+		<!-- Header -->
+			<div id="header">
 
-		<!-- Home -->
-			<div class="wrapper style1 first">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="col-md-4">
-							<span class="image fit"><img src="images/Profile Picture.jpg" alt="" /></span>
-						</div>
-						<div class="col-md-8">
-							<header>
-								<h1>I'm <strong>Ernest</strong></h1>
-							</header>
-							<p>And this is my <strong>Resume</strong>.
-							<br />
-							Hoping that I will get hired and not starving to death, ending my uneventful life.
-							</p>
-							<p>
-							theboss@ernestlimwoonteng.com
-							</p>
-						</div>
-					</div>
-				</article>
-			</div>
+				<div class="top">
 
-		<!-- Skills -->
-			<div class="wrapper style2">
-				<article id="skills">
-					<header>
-						<h2>Here are my skills.</h2>
-						<p>Might be more relevant than you might think.</p>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
-								<section class="box style1">
-									<span class="icon featured fa-comments-o"></span>
-									<h3>Multi-lingual</h3>
-									<p>Java, Python, C++, C#, English, Chinese, Hokkien and Dragontongue. Currently learning Parseltongue too.</p>
-								</section>
-							</div>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Ernest Lim</h1>
+							<p>Dragon Slayer</p>
+							<p>theboss@ernestlimwoonteng.com</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
 							<!--
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="icon featured fa-camera-retro"></span>
-									<h3>Lorem dolor tempus</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
 							-->
-							<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
-								<section class="box style1">
-									<span class="icon featured fa-thumbs-o-up"></span>
-									<h3>Dragon Slaying</h3>
-									<p>Keeping Singapore skies safe from fire-breathing beast, silently, stealthily but surely since 1993.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-					<!-- Footer taken away
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button big scrolly">See some of my recent work</a>
-					</footer>
-					-->
-				</article>
-			</div>
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#qualifications" id="qualifications-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Qualifications</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+							<!-- Will be included once i think what to do with it
+							
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								
+							-->
+							</ul>
+						</nav>
+				</div>
 
-		<!-- Portfolio -->
-			<div class="wrapper style3">
-				<article id="portfolio">
-					<header>
-						<h2>Here’s some stuff I made recently.</h2>
-						<p>If it looks stupid but it works, it is not stupid</p>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="box style2">
-								<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
-									<a href="#" class="image featured"><img src="images/portfolio1.jpg" alt=""/></a>
-								</div>
-								<div class="col-md-8" align="left">
-									<h3><a href="#">Personal Resume Website</a></h3>
-									<p>A simple website showing my skill-sets and qualification to get me hired. Hopefully.</p>
-									<p>Boom! Inception.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Testing format>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-									<h3><a href="#">Magna feugiat</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Veroeros primis</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Lorem ipsum</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Tempus dolore</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-									<h3><a href="#">Feugiat aliquam</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-									<h3><a href="#">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-						</div>
-					</div>
-					< End of test-->
-					<!-- footer removed
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button big scrolly">Get in touch with me</a>
-					</footer>
-					-->
-				</article>
-			</div>
+				<div class="bottom">
 
-		<!-- Contact -->
-			<div class="wrapper style4">
-				<article id="contact" class="container 75%">
-					<header>
-						<h2>Have me make work for you.</h2>
-						<p>Please.</p>
-					</header>
-					<div>
-						<div class="row">
-							<div class="col-md-12">
-								<form method="post" action="#">
-									<div>
-										<div class="row">
-											<div class="col-md-6">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="col-md-6">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 200%">
-											<div class="col-md-12">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<h3>Find me on ...</h3>
-								<ul class="social">
-									<li><a href="https://www.facebook.com/limwoonteng" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="https://instagram.com/ernestlwt/" class="icon fa-instagram"><span class="label"></a></li>
-									<li><a href="https://github.com/ernestlwt" class="icon fa-github"><span class="label">Github</span></a></li>
-									<!--
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-									-->
-								</ul>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<hr />
-						<ul id="copyright">
-							<li>&copy;Ernest Lim Woon Teng.</li><li>All rights reserved, no rights deserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/limwoonteng" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/ernestlwt" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://instagram.com/ernestlwt/" class="icon fa-instagram"><span class="label"></a></li>
 						</ul>
-					</footer>
-				</article>
+						
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Ernest</strong>.<br />
+								Part-time Student, Full-time Dragon Slayer.</h2>
+								<p>My attempt at a resume to get some work offers.
+								<br />
+								<br />
+								theboss@ernestlimwoonteng.com
+								</p>
+							</header>
+						</div>
+					</section>
+					
+				<!-- About Me -->
+					<section id="about" class="two">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<p>Hello, I'm Ernest. Currently a freshman taking a double-degree course at Nanyang Technological University.
+							With the knowledge I would obtain in my Business and Computer Science degree, I hope that I would have an advantage in this competitive market. Currently learning HTML and CSS on my own, I would move on to Andriod and IOS programming to further my knowledge in different fields. I am interested in working as a group on some light-weight project.
+							</p>
+
+						</div>
+					</section>	
+
+				<!-- Skills -->
+					<section id="qualifications" class="three">
+						<div class="container">
+							<header>
+								<h2>Qualifications</h2>
+							</header>
+							
+							<h3>Programming Language</h3>
+							<p>
+							Java, Python, C#, C++
+							</p>
+							
+							<h3>Certifications</h3>
+							<p>
+							Diploma in Information Security(Nanyang Polytechnic)</br>
+							Red Hat Certified System Administrator(RHCSA)
+							</p>
+							
+							<h3>Awards</h3>
+							<p>
+							Director's List Award (2010 Semester 1, 2010 Semester 2, 2011 Semester 1)</br>
+							CSIT-Nanyang Scholarship Award
+							</p>
+						
+						
+						</div>
+					</section>	
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>These are the projects which I have done before, either as part of school projects or personal interest.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/portfolio1.jpg" alt="" /></a>
+									</article>
+								</div>
+								<div class="8u 12u$(mobile)">
+									<article class="item" align="left">
+										<h3>Personal Resume Website</h3>
+										<p>Exactly this website. Done during my free time, this project was simple and yet gave me good knowledge on using HTML5 and CSS.</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Ernest Lim 2015.</li><li>All rights reserved, no rights deserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
